@@ -1,7 +1,7 @@
 import random
 
 def play():
-    user = input("Choose a lucky letter 'r' for rock, 'p' for paper, 's' for scissors: ")
+    user = input("Choose a lucky letter 'r' for rock, 'p' for paper, 's' for scissors\n: ")
     computer = random.choice(['r', 'p', 's'])
     
     if user == computer:
