@@ -1,4 +1,5 @@
 class car(object):
+    '''a constructor function to initialize the parameters'''
     def __init__(self, make, year, condition='New'):
         self.make = make
         self.year=year
