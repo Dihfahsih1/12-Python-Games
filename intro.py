@@ -7,7 +7,7 @@ class car(object):
         if showAll:
             print("This car is a %s made in %s and is %s "%(self.make, self.year, self.condition))
         else:
-            print("This is a %s "%(self.condition))
+            print("This is an %s car. "%(self.condition))
 
 mycar = car('ford',2020, 'Old')
 mycar.display(False)
