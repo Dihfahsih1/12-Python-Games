@@ -3,7 +3,7 @@ class car(object):
         self.make = make
         self.year=year
         self.condition = condition
-    def display(self,showAll):
+    def display(self,showAll=True):
         if showAll:
             print("This car is a %s made in %s and is %s "%(self.make, self.year, self.condition))
         else:
