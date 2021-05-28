@@ -5,7 +5,7 @@ def add5(x):
 
 def isOdd(x):
     return x%3 != 0
-
+                                                                                                         
 #filter the list
 b = list(filter(isOdd, a))
 print(b)
