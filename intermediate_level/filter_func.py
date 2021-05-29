@@ -11,6 +11,6 @@ b = list(filter(isOdd, a))
 print(b)
 
 #add 5 to every number in the filtered list
-c = list(map(add5,b))
+c = list(map(add5, b))
 print (c)
     
