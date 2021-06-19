@@ -1,4 +1,4 @@
-#static and class method
+ 
 
 class person(object):
     population =100
