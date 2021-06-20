@@ -1,8 +1,6 @@
 def function1(function):
     def wrapper(*args, **kwargs):
-        print("hello")
-        function(*args, **kwargs)
-        print("you are welcome to programming")
+        print("it worked")
     return wrapper
 
 '''python syntactic sugar '''
