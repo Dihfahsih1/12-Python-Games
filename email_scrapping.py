@@ -6,7 +6,7 @@ from collections import deque
 from bs4 import BeautifulSoup
 
 # starting url. replace google with your own url.
-starting_url = 'http://www.miet.ac.in'
+starting_url = 'https://instagram.com/'
 
 # a queue of urls to be crawled
 unprocessed_urls = deque([starting_url])
